@@ -2,6 +2,6 @@
   <div class="lang-box" *ngFor="let lang of langMetaData">
     <label *ngIf="langCode === lang.code">선택됨</label>
     <button type="button" (click)="setLangCode(lang.code)"
-            [disabled]="langCode===lang.code" >{{lang.code}}</button>
+            [disabled]="langCode===lang.code" >{{lang | langSelectorBtn}}</button>
   </div>
 </div>
