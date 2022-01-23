@@ -4,4 +4,9 @@
     <button type="button" (click)="setLangCode('ko')"
             [disabled]="langCode==='ko'" >한국어</button>
   </div>
+  <div class="lang-box">
+    <label *ngIf="langCode === 'fr'">프랑스어 선택됨</label>
+    <button type="button" (click)="setLangCode('fr')"
+            [disabled]="langCode==='fr'" >프랑스어</button>
+  </div>
 </div>
