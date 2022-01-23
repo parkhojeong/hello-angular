@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { WelcomeMsgComponent } from './welcome-msg/welcome-msg.component';
+import { LangSelectorComponent } from './lang-selector/lang-selector.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeMsgComponent
+    WelcomeMsgComponent,
+    LangSelectorComponent
   ],
   imports: [
     BrowserModule
